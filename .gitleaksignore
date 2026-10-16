@@ -1,0 +1,2 @@
+# Synthetic AWS key id planted by scripts/gate_mut.sh to prove the gitleaks gate fires; it was never a credential.
+b69d386e9e3702f57e13e2aff3a79bb8cbc9339a:scripts/gate_mut.sh:aws-access-token:13
