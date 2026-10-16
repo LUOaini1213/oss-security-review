@@ -1,0 +1,418 @@
+{
+ "civil-buddy-sme": {
+  "before": {
+   "gitleaks": {
+    "High": 3
+   },
+   "npm-audit": {
+    "Medium": 1
+   },
+   "pip-audit": {
+    "n": 0
+   },
+   "semgrep": {
+    "High": 30,
+    "Low": 8,
+    "Medium": 63
+   },
+   "semgrep_rules": {
+    "contains-bidirectional-characters": 2,
+    "dangerous-subprocess-use-tainted-env-args": 9,
+    "detect-replaceall-sanitization": 8,
+    "detected-jwt-token": 1,
+    "dynamic-urllib-use-detected": 24,
+    "formatted-sql-query": 6,
+    "gha-curl-pipe-shell": 1,
+    "github-actions-mutable-action-tag": 12,
+    "insecure-hash-algorithm-sha1": 2,
+    "insecure-request-object": 5,
+    "non-literal-import": 8,
+    "plaintext-http-link": 2,
+    "python36-compatibility-Popen1": 2,
+    "python36-compatibility-Popen2": 3,
+    "react-insecure-request": 1,
+    "sqlalchemy-execute-raw-query": 12,
+    "subprocess-injection": 1,
+    "unknown-value-with-script-tag": 2
+   },
+   "trivy-fs-vuln": {
+    "Medium": 1
+   },
+   "trivy-image-gateway": {
+    "High": 46,
+    "Low": 62,
+    "Medium": 65,
+    "Unknown": 3
+   },
+   "trivy-image-gateway-fixable": {
+    "High": 2,
+    "Low": 1,
+    "Medium": 7,
+    "Unknown": 2
+   },
+   "trivy-misconfig": {
+    "High": 1,
+    "Low": 1
+   },
+   "trivy-secret": {},
+   "zap-auth": {
+    "Info": 4,
+    "Low": 7,
+    "Medium": 3
+   },
+   "zap-auth-alerts": [
+    "Info: Information Disclosure - Suspicious Comments [10027] x7",
+    "Info: Modern Web Application [10109] x2",
+    "Info: Non-Storable Content [10049] x1",
+    "Info: Storable and Cacheable Content [10049] x5",
+    "Low: Cross-Domain JavaScript Source File Inclusion [10017] x1",
+    "Low: Cross-Origin-Embedder-Policy Header Missing or Invalid [90004] x3",
+    "Low: Cross-Origin-Opener-Policy Header Missing or Invalid [90004] x3",
+    "Low: Cross-Origin-Resource-Policy Header Missing or Invalid [90004] x5",
+    "Low: Permissions Policy Header Not Set [10063] x5",
+    "Low: Vulnerable JS Library [10003] x1",
+    "Low: X-Content-Type-Options Header Missing [10021] x5",
+    "Medium: Content Security Policy (CSP) Header Not Set [10038] x5",
+    "Medium: Missing Anti-clickjacking Header [10020] x5",
+    "Medium: Sub Resource Integrity Attribute Missing [90003] x2"
+   ],
+   "zap-unauth": {
+    "Info": 2,
+    "Low": 5,
+    "Medium": 2
+   },
+   "zap-unauth-alerts": [
+    "Info: Non-Storable Content [10049] x3",
+    "Info: Storable and Cacheable Content [10049] x1",
+    "Low: Cross-Origin-Embedder-Policy Header Missing or Invalid [90004] x1",
+    "Low: Cross-Origin-Opener-Policy Header Missing or Invalid [90004] x1",
+    "Low: Cross-Origin-Resource-Policy Header Missing or Invalid [90004] x2",
+    "Low: Permissions Policy Header Not Set [10063] x1",
+    "Low: X-Content-Type-Options Header Missing [10021] x2",
+    "Medium: Content Security Policy (CSP) Header Not Set [10038] x1",
+    "Medium: Missing Anti-clickjacking Header [10020] x1"
+   ]
+  }
+ },
+ "fm-knowledge-assistant": {
+  "after": {
+   "gitleaks": {},
+   "pip-audit": {
+    "n": 0
+   },
+   "semgrep": {
+    "High": 2,
+    "Medium": 3
+   },
+   "semgrep_rules": {
+    "exec-detected": 2,
+    "formatted-sql-query": 1,
+    "sqlalchemy-execute-raw-query": 2
+   },
+   "trivy-fs-vuln": {},
+   "trivy-image-api": {
+    "High": 44,
+    "Low": 61,
+    "Medium": 58,
+    "Unknown": 3
+   },
+   "trivy-image-api-fixable": {
+    "Unknown": 2
+   },
+   "trivy-misconfig": {},
+   "trivy-secret": {},
+   "zap-api": {
+    "Info": 2,
+    "Low": 3
+   },
+   "zap-api-alerts": [
+    "Info: A Client Error response code was returned by the server [100000] x14",
+    "Info: Non-Storable Content [10049] x5",
+    "Low: A Server Error response code was returned by the server [100000] x4",
+    "Low: Application Error Disclosure [90022] x2",
+    "Low: Information Disclosure - Debug Error Messages [10023] x2"
+   ],
+   "zap-web": {
+    "Info": 2,
+    "Low": 3,
+    "Medium": 3
+   },
+   "zap-web-alerts": [
+    "Info: Modern Web Application [10109] x1",
+    "Info: Non-Storable Content [10049] x4",
+    "Low: Cross-Domain JavaScript Source File Inclusion [10017] x1",
+    "Low: Cross-Origin-Embedder-Policy Header Missing or Invalid [90004] x1",
+    "Low: Cross-Origin-Opener-Policy Header Missing or Invalid [90004] x1",
+    "Medium: CSP: script-src unsafe-inline [10055] x1",
+    "Medium: CSP: style-src unsafe-inline [10055] x1",
+    "Medium: Sub Resource Integrity Attribute Missing [90003] x2"
+   ]
+  },
+  "before": {
+   "gitleaks": {
+    "High": 1
+   },
+   "pip-audit": {
+    "n": 0
+   },
+   "semgrep": {
+    "High": 2,
+    "Medium": 6
+   },
+   "semgrep_rules": {
+    "exec-detected": 2,
+    "formatted-sql-query": 1,
+    "github-actions-mutable-action-tag": 3,
+    "sqlalchemy-execute-raw-query": 2
+   },
+   "trivy-fs-vuln": {},
+   "trivy-image-api": {
+    "High": 46,
+    "Low": 62,
+    "Medium": 64,
+    "Unknown": 3
+   },
+   "trivy-image-api-fixable": {
+    "High": 2,
+    "Low": 1,
+    "Medium": 6,
+    "Unknown": 2
+   },
+   "trivy-misconfig": {
+    "High": 1
+   },
+   "trivy-secret": {},
+   "zap-api": {
+    "Info": 3,
+    "Low": 5
+   },
+   "zap-api-alerts": [
+    "Info: A Client Error response code was returned by the server [100000] x14",
+    "Info: Non-Storable Content [10049] x2",
+    "Info: Storable and Cacheable Content [10049] x3",
+    "Low: A Server Error response code was returned by the server [100000] x4",
+    "Low: Application Error Disclosure [90022] x2",
+    "Low: Cross-Origin-Resource-Policy Header Missing or Invalid [90004] x3",
+    "Low: Information Disclosure - Debug Error Messages [10023] x2",
+    "Low: X-Content-Type-Options Header Missing [10021] x2"
+   ],
+   "zap-web": {
+    "Info": 2,
+    "Low": 6,
+    "Medium": 3
+   },
+   "zap-web-alerts": [
+    "Info: Modern Web Application [10109] x1",
+    "Info: Storable and Cacheable Content [10049] x4",
+    "Low: Cross-Domain JavaScript Source File Inclusion [10017] x1",
+    "Low: Cross-Origin-Embedder-Policy Header Missing or Invalid [90004] x1",
+    "Low: Cross-Origin-Opener-Policy Header Missing or Invalid [90004] x1",
+    "Low: Cross-Origin-Resource-Policy Header Missing or Invalid [90004] x1",
+    "Low: Permissions Policy Header Not Set [10063] x1",
+    "Low: X-Content-Type-Options Header Missing [10021] x1",
+    "Medium: Content Security Policy (CSP) Header Not Set [10038] x1",
+    "Medium: Missing Anti-clickjacking Header [10020] x1",
+    "Medium: Sub Resource Integrity Attribute Missing [90003] x2"
+   ]
+  }
+ },
+ "sg-traffic-camera-analytics": {
+  "after": {
+   "gitleaks": {},
+   "pip-audit": {
+    "n": 0
+   },
+   "semgrep": {
+    "Medium": 9
+   },
+   "semgrep_rules": {
+    "dynamic-urllib-use-detected": 5,
+    "insecure-hash-algorithm-md5": 3,
+    "insecure-request-object": 1
+   },
+   "trivy-fs-vuln": {},
+   "trivy-misconfig": {},
+   "trivy-secret": {},
+   "zap-api": {
+    "Info": 2
+   },
+   "zap-api-alerts": [
+    "Info: A Client Error response code was returned by the server [100000] x14",
+    "Info: Storable and Cacheable Content [10049] x4"
+   ],
+   "zap-web": {
+    "Info": 1
+   },
+   "zap-web-alerts": [
+    "Info: Storable and Cacheable Content [10049] x3"
+   ]
+  },
+  "before": {
+   "gitleaks": {},
+   "pip-audit": {
+    "n": 0
+   },
+   "semgrep": {
+    "Medium": 11
+   },
+   "semgrep_rules": {
+    "dynamic-urllib-use-detected": 5,
+    "github-actions-mutable-action-tag": 2,
+    "insecure-hash-algorithm-md5": 3,
+    "insecure-request-object": 1
+   },
+   "trivy-fs-vuln": {},
+   "trivy-misconfig": {},
+   "trivy-secret": {},
+   "zap-api": {
+    "Info": 2,
+    "Low": 2
+   },
+   "zap-api-alerts": [
+    "Info: A Client Error response code was returned by the server [100000] x14",
+    "Info: Storable and Cacheable Content [10049] x4",
+    "Low: Cross-Origin-Resource-Policy Header Missing or Invalid [90004] x3",
+    "Low: X-Content-Type-Options Header Missing [10021] x3"
+   ],
+   "zap-web": {
+    "Info": 1
+   },
+   "zap-web-alerts": [
+    "Info: Storable and Cacheable Content [10049] x2"
+   ]
+  }
+ },
+ "sg-transit-geo-assistant": {
+  "after": {
+   "gitleaks": {},
+   "npm-audit": {},
+   "pip-audit": {
+    "n": 0
+   },
+   "semgrep": {
+    "High": 22,
+    "Medium": 22
+   },
+   "semgrep_rules": {
+    "formatted-sql-query": 22,
+    "sqlalchemy-execute-raw-query": 22
+   },
+   "trivy-fs-vuln": {},
+   "trivy-image-api": {
+    "High": 44,
+    "Low": 61,
+    "Medium": 58,
+    "Unknown": 3
+   },
+   "trivy-image-api-fixable": {
+    "Unknown": 2
+   },
+   "trivy-image-web": {
+    "Medium": 1
+   },
+   "trivy-image-web-fixable": {
+    "Medium": 1
+   },
+   "trivy-misconfig": {},
+   "trivy-secret": {},
+   "zap-api": {
+    "Info": 3,
+    "Low": 1
+   },
+   "zap-api-alerts": [
+    "Info: A Client Error response code was returned by the server [100000] x20",
+    "Info: Non-Storable Content [10049] x2",
+    "Info: Storable and Cacheable Content [10049] x5",
+    "Low: Unexpected Content-Type was returned [100001] x13"
+   ],
+   "zap-web": {
+    "Info": 2,
+    "Low": 2
+   },
+   "zap-web-alerts": [
+    "Info: Modern Web Application [10109] x1",
+    "Info: Storable and Cacheable Content [10049] x5",
+    "Low: Cross-Origin-Embedder-Policy Header Missing or Invalid [90004] x3",
+    "Low: Timestamp Disclosure - Unix [10096] x1"
+   ]
+  },
+  "before": {
+   "gitleaks": {},
+   "npm-audit": {
+    "High": 1
+   },
+   "pip-audit": {
+    "n": 0
+   },
+   "semgrep": {
+    "High": 22,
+    "Medium": 27
+   },
+   "semgrep_rules": {
+    "formatted-sql-query": 22,
+    "github-actions-mutable-action-tag": 5,
+    "sqlalchemy-execute-raw-query": 22
+   },
+   "trivy-fs-vuln": {},
+   "trivy-image-api": {
+    "High": 44,
+    "Low": 62,
+    "Medium": 63,
+    "Unknown": 3
+   },
+   "trivy-image-api-fixable": {
+    "Low": 1,
+    "Medium": 5,
+    "Unknown": 2
+   },
+   "trivy-image-web": {
+    "High": 44,
+    "Low": 50,
+    "Medium": 83,
+    "Unknown": 2
+   },
+   "trivy-image-web-fixable": {
+    "High": 44,
+    "Low": 50,
+    "Medium": 83,
+    "Unknown": 2
+   },
+   "trivy-misconfig": {
+    "High": 1,
+    "Low": 1
+   },
+   "trivy-secret": {},
+   "zap-api": {
+    "Info": 3,
+    "Low": 4
+   },
+   "zap-api-alerts": [
+    "Info: A Client Error response code was returned by the server [100000] x20",
+    "Info: Non-Storable Content [10049] x2",
+    "Info: Storable and Cacheable Content [10049] x5",
+    "Low: Cross-Origin-Resource-Policy Header Missing or Invalid [90004] x5",
+    "Low: Server Leaks Version Information via \"Server\" HTTP Response Header Field [10036] x5",
+    "Low: Unexpected Content-Type was returned [100001] x13",
+    "Low: X-Content-Type-Options Header Missing [10021] x5"
+   ],
+   "zap-web": {
+    "Info": 2,
+    "Low": 7,
+    "Medium": 2
+   },
+   "zap-web-alerts": [
+    "Info: Modern Web Application [10109] x3",
+    "Info: Storable and Cacheable Content [10049] x5",
+    "Low: Cross-Origin-Embedder-Policy Header Missing or Invalid [90004] x3",
+    "Low: Cross-Origin-Opener-Policy Header Missing or Invalid [90004] x3",
+    "Low: Cross-Origin-Resource-Policy Header Missing or Invalid [90004] x3",
+    "Low: Permissions Policy Header Not Set [10063] x4",
+    "Low: Server Leaks Version Information via \"Server\" HTTP Response Header Field [10036] x5",
+    "Low: Timestamp Disclosure - Unix [10096] x1",
+    "Low: X-Content-Type-Options Header Missing [10021] x5",
+    "Medium: Content Security Policy (CSP) Header Not Set [10038] x3",
+    "Medium: Missing Anti-clickjacking Header [10020] x2"
+   ]
+  }
+ }
+}

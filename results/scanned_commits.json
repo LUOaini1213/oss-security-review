@@ -1,0 +1,17 @@
+{
+ "civil-buddy-sme": {
+  "before": "4d6ad08aa3082b9fcc84561a3f3b71b0a400b440"
+ },
+ "fm-knowledge-assistant": {
+  "after": "f46ecae6bffcd11bffac064f5e2c265df0f18595",
+  "before": "f38fc3dab62773cd321c6e8c184d926e55f82bd2"
+ },
+ "sg-traffic-camera-analytics": {
+  "after": "bda2f5dfd459c293ed71d684a412721abd1dafcd",
+  "before": "255952de63362969838c776babb9eabe3ae73d91"
+ },
+ "sg-transit-geo-assistant": {
+  "after": "78526972cc00bb4841e92417be7282334e4e59e9",
+  "before": "3b59e13a492bf3239ef45db7d35e7afa84673f7a"
+ }
+}
