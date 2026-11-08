@@ -1,0 +1,25 @@
+{
+ "ArtifactName": ".",
+ "Metadata": {},
+ "Results": [
+  {
+   "Class": "config",
+   "Misconfigurations": [
+    {
+     "ID": "DS-0002",
+     "Severity": "HIGH",
+     "Status": "FAIL",
+     "Title": "Image user should not be 'root'"
+    },
+    {
+     "ID": "DS-0026",
+     "Severity": "LOW",
+     "Status": "FAIL",
+     "Title": "No HEALTHCHECK defined"
+    }
+   ],
+   "Target": "frontend/Dockerfile",
+   "Type": "dockerfile"
+  }
+ ]
+}

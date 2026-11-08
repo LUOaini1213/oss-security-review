@@ -1,0 +1,309 @@
+{
+ "@generated": "Fri, 16 Oct 2026 01:48:07",
+ "@version": "2.17.0",
+ "site": [
+  {
+   "@name": "http://127.0.0.1:18001",
+   "alerts": [
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/demo"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/index.html"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/workbench"
+      }
+     ],
+     "name": "Content Security Policy (CSP) Header Not Set",
+     "pluginid": "10038",
+     "riskcode": "2"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/demo"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/index.html"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/workbench"
+      }
+     ],
+     "name": "Missing Anti-clickjacking Header",
+     "pluginid": "10020",
+     "riskcode": "2"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      }
+     ],
+     "name": "Sub Resource Integrity Attribute Missing",
+     "pluginid": "90003",
+     "riskcode": "2"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      }
+     ],
+     "name": "Cross-Domain JavaScript Source File Inclusion",
+     "pluginid": "10017",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/demo"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      }
+     ],
+     "name": "Cross-Origin-Embedder-Policy Header Missing or Invalid",
+     "pluginid": "90004",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/demo"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      }
+     ],
+     "name": "Cross-Origin-Opener-Policy Header Missing or Invalid",
+     "pluginid": "90004",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/demo"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/icons/cb-icon.svg"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/manifest.webmanifest"
+      }
+     ],
+     "name": "Cross-Origin-Resource-Policy Header Missing or Invalid",
+     "pluginid": "90004",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/demo"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/demo"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/vendor/cb-doc.js"
+      }
+     ],
+     "name": "Permissions Policy Header Not Set",
+     "pluginid": "10063",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/vendor/vue.min.js"
+      }
+     ],
+     "name": "Vulnerable JS Library",
+     "pluginid": "10003",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/icons/cb-icon.svg"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/manifest.webmanifest"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/vendor/cb-doc.js"
+      }
+     ],
+     "name": "X-Content-Type-Options Header Missing",
+     "pluginid": "10021",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/i18n.js"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/index.html"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/workbench"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/workbench"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/workbench"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/workbench"
+      }
+     ],
+     "name": "Information Disclosure - Suspicious Comments",
+     "pluginid": "10027",
+     "riskcode": "0"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/workbench"
+      }
+     ],
+     "name": "Modern Web Application",
+     "pluginid": "10109",
+     "riskcode": "0"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/demo"
+      }
+     ],
+     "name": "Non-Storable Content",
+     "pluginid": "10049",
+     "riskcode": "0"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/docs"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/sitemap.xml"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/icons/cb-icon.svg"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18001/static/manifest.webmanifest"
+      }
+     ],
+     "name": "Storable and Cacheable Content",
+     "pluginid": "10049",
+     "riskcode": "0"
+    }
+   ]
+  }
+ ]
+}

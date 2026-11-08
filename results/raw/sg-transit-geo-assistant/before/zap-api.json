@@ -1,0 +1,280 @@
+{
+ "@generated": "Thu, 15 Oct 2026 08:39:00",
+ "@version": "2.17.0",
+ "site": [
+  {
+   "@name": "http://127.0.0.1:18080",
+   "alerts": [
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/examples"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/health"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/layers/coverage"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/layers/stops"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/openapi.json"
+      }
+     ],
+     "name": "Cross-Origin-Resource-Policy Header Missing or Invalid",
+     "pluginid": "90004",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/examples"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/layers/coverage"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/stops/stop_code"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/stops/stop_code/od"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/openapi.json"
+      }
+     ],
+     "name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+     "pluginid": "10036",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/3801999954514481774"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/4638254024274710019"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/openapi.json/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/computeMetadata/v1/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/latest/meta-data/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/metadata/instance"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/metadata/v1"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/opc/v1/instance/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/opc/v2/instance/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/openstack/latest/meta_data.json"
+      }
+     ],
+     "name": "Unexpected Content-Type was returned",
+     "pluginid": "100001",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/examples"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/health"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/layers/coverage"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/layers/stops"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/openapi.json"
+      }
+     ],
+     "name": "X-Content-Type-Options Header Missing",
+     "pluginid": "10021",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/2750171840888314135"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/actuator/health"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/layers"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/layers/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/layers/1219132089711296442"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/stops"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/stops/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/stops/8293211415809667207"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/stops/stop_code"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/stops/stop_code/2547390508798128745"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/stops/stop_code/od"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/api/ask"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/computeMetadata/v1/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/latest/meta-data/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/metadata/instance"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/metadata/v1"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/opc/v1/instance/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/opc/v2/instance/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18080/openstack/latest/meta_data.json"
+      }
+     ],
+     "name": "A Client Error response code was returned by the server",
+     "pluginid": "100000",
+     "riskcode": "0"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/stops/stop_code"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/stops/stop_code/od"
+      }
+     ],
+     "name": "Non-Storable Content",
+     "pluginid": "10049",
+     "riskcode": "0"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/examples"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/health"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/layers/coverage"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/api/layers/stops"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/openapi.json"
+      }
+     ],
+     "name": "Storable and Cacheable Content",
+     "pluginid": "10049",
+     "riskcode": "0"
+    }
+   ]
+  }
+ ]
+}

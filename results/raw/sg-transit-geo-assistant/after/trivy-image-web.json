@@ -1,0 +1,26 @@
+{
+ "ArtifactName": "secreview/geo-web:after",
+ "Metadata": {
+  "OS": {
+   "Family": "alpine",
+   "Name": "3.24.2"
+  }
+ },
+ "Results": [
+  {
+   "Class": "os-pkgs",
+   "Target": "secreview/geo-web:after (alpine 3.24.2)",
+   "Type": "alpine",
+   "Vulnerabilities": [
+    {
+     "FixedVersion": "1.3.2-r1",
+     "InstalledVersion": "1.3.2-r0",
+     "PkgName": "zlib",
+     "Severity": "MEDIUM",
+     "Status": "fixed",
+     "VulnerabilityID": "CVE-2026-85091"
+    }
+   ]
+  }
+ ]
+}

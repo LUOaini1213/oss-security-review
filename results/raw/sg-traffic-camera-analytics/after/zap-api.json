@@ -1,0 +1,97 @@
+{
+ "@generated": "Thu, 15 Oct 2026 09:53:14",
+ "@version": "2.17.0",
+ "site": [
+  {
+   "@name": "http://127.0.0.1:18088",
+   "alerts": [
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/6457969953861405538"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/actuator/health"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/cameras/4086276904102168752"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/cameras/cam"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/cameras/cam/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/computeMetadata/v1/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/latest/meta-data/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/metadata/instance"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/metadata/v1"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/opc/v1/instance/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/opc/v2/instance/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/openstack/latest/meta_data.json"
+      }
+     ],
+     "name": "A Client Error response code was returned by the server",
+     "pluginid": "100000",
+     "riskcode": "0"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/cameras"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/cameras/cam"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/health"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18088/openapi.json"
+      }
+     ],
+     "name": "Storable and Cacheable Content",
+     "pluginid": "10049",
+     "riskcode": "0"
+    }
+   ]
+  }
+ ]
+}

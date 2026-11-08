@@ -1,0 +1,40 @@
+{
+ "ArtifactName": ".",
+ "Metadata": {},
+ "Results": [
+  {
+   "Class": "lang-pkgs",
+   "Target": "workbench/Cargo.lock",
+   "Type": "cargo",
+   "Vulnerabilities": [
+    {
+     "FixedVersion": "0.23.45",
+     "InstalledVersion": "0.23.43",
+     "PkgName": "rustls",
+     "Severity": "MEDIUM",
+     "Status": "fixed",
+     "VulnerabilityID": "GHSA-2mjx-qc3c-rqvc"
+    }
+   ]
+  },
+  {
+   "Class": "config",
+   "Misconfigurations": [
+    {
+     "ID": "DS-0002",
+     "Severity": "HIGH",
+     "Status": "FAIL",
+     "Title": "Image user should not be 'root'"
+    },
+    {
+     "ID": "DS-0026",
+     "Severity": "LOW",
+     "Status": "FAIL",
+     "Title": "No HEALTHCHECK defined"
+    }
+   ],
+   "Target": "Dockerfile",
+   "Type": "dockerfile"
+  }
+ ]
+}

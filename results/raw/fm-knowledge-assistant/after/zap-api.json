@@ -1,0 +1,154 @@
+{
+ "@generated": "Fri, 16 Oct 2026 01:31:05",
+ "@version": "2.17.0",
+ "site": [
+  {
+   "@name": "http://127.0.0.1:18000",
+   "alerts": [
+    {
+     "instances": [
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/ask"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/ask/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/search"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/search/"
+      }
+     ],
+     "name": "A Server Error response code was returned by the server",
+     "pluginid": "100000",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/ask"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/search"
+      }
+     ],
+     "name": "Application Error Disclosure",
+     "pluginid": "90022",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/ask"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/search"
+      }
+     ],
+     "name": "Information Disclosure - Debug Error Messages",
+     "pluginid": "10023",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/8797031936353508734"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/actuator/health"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/ask"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/computeMetadata/v1/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/extract"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/latest/meta-data/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/metadata/instance"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/metadata/v1"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/opc/v1/instance/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/opc/v2/instance/"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/openstack/latest/meta_data.json"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/search"
+      }
+     ],
+     "name": "A Client Error response code was returned by the server",
+     "pluginid": "100000",
+     "riskcode": "0"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/health"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/openapi.json"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/ask"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/extract"
+      },
+      {
+       "method": "POST",
+       "uri": "http://127.0.0.1:18000/search"
+      }
+     ],
+     "name": "Non-Storable Content",
+     "pluginid": "10049",
+     "riskcode": "0"
+    }
+   ]
+  }
+ ]
+}

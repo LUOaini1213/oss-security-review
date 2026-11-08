@@ -1,0 +1,85 @@
+{
+ "results": [
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 7
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 10
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 24
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.exec-detected.exec-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "eval/eval_claim_guard.py",
+   "start": {
+    "line": 36
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.exec-detected.exec-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "eval/eval_claim_guard.py",
+   "start": {
+    "line": 43
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "src/fmka/retrieval.py",
+   "start": {
+    "line": 58
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "src/fmka/retrieval.py",
+   "start": {
+    "line": 58
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "src/fmka/retrieval.py",
+   "start": {
+    "line": 74
+   }
+  }
+ ],
+ "version": "1.181.0"
+}
