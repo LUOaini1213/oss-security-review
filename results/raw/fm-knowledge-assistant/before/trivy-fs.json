@@ -1,0 +1,19 @@
+{
+ "ArtifactName": ".",
+ "Metadata": {},
+ "Results": [
+  {
+   "Class": "config",
+   "Misconfigurations": [
+    {
+     "ID": "DS-0002",
+     "Severity": "HIGH",
+     "Status": "FAIL",
+     "Title": "Image user should not be 'root'"
+    }
+   ],
+   "Target": "Dockerfile",
+   "Type": "dockerfile"
+  }
+ ]
+}

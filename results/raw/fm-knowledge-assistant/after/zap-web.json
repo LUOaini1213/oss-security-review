@@ -1,0 +1,115 @@
+{
+ "@generated": "Fri, 16 Oct 2026 01:32:10",
+ "@version": "2.17.0",
+ "site": [
+  {
+   "@name": "http://127.0.0.1:18000",
+   "alerts": [
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/docs"
+      }
+     ],
+     "name": "CSP: script-src unsafe-inline",
+     "pluginid": "10055",
+     "riskcode": "2"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/docs"
+      }
+     ],
+     "name": "CSP: style-src unsafe-inline",
+     "pluginid": "10055",
+     "riskcode": "2"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/docs"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/docs"
+      }
+     ],
+     "name": "Sub Resource Integrity Attribute Missing",
+     "pluginid": "90003",
+     "riskcode": "2"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/docs"
+      }
+     ],
+     "name": "Cross-Domain JavaScript Source File Inclusion",
+     "pluginid": "10017",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/docs"
+      }
+     ],
+     "name": "Cross-Origin-Embedder-Policy Header Missing or Invalid",
+     "pluginid": "90004",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/docs"
+      }
+     ],
+     "name": "Cross-Origin-Opener-Policy Header Missing or Invalid",
+     "pluginid": "90004",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/docs"
+      }
+     ],
+     "name": "Modern Web Application",
+     "pluginid": "10109",
+     "riskcode": "0"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/docs"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18000/sitemap.xml"
+      }
+     ],
+     "name": "Non-Storable Content",
+     "pluginid": "10049",
+     "riskcode": "0"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "results": [
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 9
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 10
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.insecure-transport.urllib.insecure-request-object.insecure-request-object",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/vlm_eval.py",
+   "start": {
+    "line": 44
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/vlm_eval.py",
+   "start": {
+    "line": 46
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "src/tcam/archive.py",
+   "start": {
+    "line": 18
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "src/tcam/archive.py",
+   "start": {
+    "line": 35
+   }
+  },
+  {
+   "check_id": "python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "src/tcam/archive.py",
+   "start": {
+    "line": 37
+   }
+  },
+  {
+   "check_id": "python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "src/tcam/collect.py",
+   "start": {
+    "line": 71
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "src/tcam/datamall.py",
+   "start": {
+    "line": 32
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "src/tcam/datamall.py",
+   "start": {
+    "line": 76
+   }
+  },
+  {
+   "check_id": "python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "src/tcam/stream/producer.py",
+   "start": {
+    "line": 55
+   }
+  }
+ ],
+ "version": "1.181.0"
+}

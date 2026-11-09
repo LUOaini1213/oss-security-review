@@ -1,0 +1,14 @@
+{
+ "head": "3b59e13a492bf3239ef45db7d35e7afa84673f7a",
+ "images": {
+  "api": {
+   "bytes": 136207370,
+   "id": "sha256:0fbcb10807f993fc34d3acb71c2d8daa9ff095e2945e87daeaadfbd3ad961bf6"
+  },
+  "web": {
+   "bytes": 26512560,
+   "id": "sha256:30abc429b7fdccd79847bc93f0162bdd4a07e56d26a9367302d43660563c529d"
+  }
+ },
+ "scanned_at": "2026-10-15T09:04:05Z"
+}

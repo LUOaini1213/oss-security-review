@@ -1,0 +1,236 @@
+{
+ "@generated": "Thu, 15 Oct 2026 08:38:04",
+ "@version": "2.17.0",
+ "site": [
+  {
+   "@name": "http://127.0.0.1:18080",
+   "alerts": [
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/sitemap.xml"
+      }
+     ],
+     "name": "Content Security Policy (CSP) Header Not Set",
+     "pluginid": "10038",
+     "riskcode": "2"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/sitemap.xml"
+      }
+     ],
+     "name": "Missing Anti-clickjacking Header",
+     "pluginid": "10020",
+     "riskcode": "2"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/sitemap.xml"
+      }
+     ],
+     "name": "Cross-Origin-Embedder-Policy Header Missing or Invalid",
+     "pluginid": "90004",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/sitemap.xml"
+      }
+     ],
+     "name": "Cross-Origin-Opener-Policy Header Missing or Invalid",
+     "pluginid": "90004",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/sitemap.xml"
+      }
+     ],
+     "name": "Cross-Origin-Resource-Policy Header Missing or Invalid",
+     "pluginid": "90004",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/assets/index-BC9b021J.js"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/sitemap.xml"
+      }
+     ],
+     "name": "Permissions Policy Header Not Set",
+     "pluginid": "10063",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/assets/index-BC9b021J.js"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/assets/index-BoEunJDB.css"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/sitemap.xml"
+      }
+     ],
+     "name": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
+     "pluginid": "10036",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/assets/index-BC9b021J.js"
+      }
+     ],
+     "name": "Timestamp Disclosure - Unix",
+     "pluginid": "10096",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/assets/index-BC9b021J.js"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/assets/index-BoEunJDB.css"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/sitemap.xml"
+      }
+     ],
+     "name": "X-Content-Type-Options Header Missing",
+     "pluginid": "10021",
+     "riskcode": "1"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/sitemap.xml"
+      }
+     ],
+     "name": "Modern Web Application",
+     "pluginid": "10109",
+     "riskcode": "0"
+    },
+    {
+     "instances": [
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/assets/index-BC9b021J.js"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/assets/index-BoEunJDB.css"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/robots.txt"
+      },
+      {
+       "method": "GET",
+       "uri": "http://127.0.0.1:18080/sitemap.xml"
+      }
+     ],
+     "name": "Storable and Cacheable Content",
+     "pluginid": "10049",
+     "riskcode": "0"
+    }
+   ]
+  }
+ ]
+}

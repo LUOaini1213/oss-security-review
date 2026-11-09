@@ -1,0 +1,20 @@
+[
+ {
+  "Commit": "6b58cf36b7a0244021ed7cd7b3a81420bcbe0d8c",
+  "File": "scripts/test_civil_review.py",
+  "RuleID": "generic-api-key",
+  "StartLine": 103
+ },
+ {
+  "Commit": "3b1712b8e7d142c7739fc87b490c54407dbb5e03",
+  "File": "scripts/test_model_loop.py",
+  "RuleID": "generic-api-key",
+  "StartLine": 251
+ },
+ {
+  "Commit": "a9192c40b239ca320a0d17512d004d6e75704e99",
+  "File": "scripts/test_it_drafts.py",
+  "RuleID": "private-key",
+  "StartLine": 135
+ }
+]

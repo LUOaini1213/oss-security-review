@@ -1,8 +1,16 @@
 # Security review of four of my public repositories
 
-A security assessment of the four public repositories of mine that expose a web page or an HTTP API, with fixes
-pushed to three of them. Done on 2026-10-15 and 2026-10-16 with open-source scanners, run for real against fresh
-clones; every number below is what the tools reported, saved under `results/`.
+Six open-source scanners (Semgrep, pip-audit, npm audit, Trivy, gitleaks, OWASP ZAP) run on 2026-10-15 and 2026-10-16
+against the four public repositories of mine that expose a web page or an HTTP API; every hit triaged by reading the
+code; fixes pushed to three of them (17 commits).
+
+- **Found and fixed:** the geo-assistant's web image went from 179 fixable vulnerabilities (44 HIGH) to 1 MEDIUM;
+  two images stopped running as root; a Kafka consumer that froze the API on one malformed message now skips it.
+- **Assessed only:** civil-buddy-sme, with a root container (B1, Medium) and six more items (B2 to B7) still open.
+- **Limits:** passive ZAP baselines and OpenAPI-driven scans, not authenticated crawls; one person triaged; results
+  depend on the scanners' vulnerability databases on the scan date.
+- **Evidence:** the trimmed scanner reports are in `results/raw/`; `scripts/counts.py` rebuilds `results/counts.json`
+  from them byte for byte, and `scripts/verify_readme.py` checks every number below against it (run in CI).
 
 | Repository | What is exposed | Fixed in this review |
 |---|---|---|
@@ -34,7 +42,9 @@ and CI runs them on every push. A `security` job was added to each CI. The CI ga
 on the pre-fix front end, the Semgrep gate without its documented exclusion, the gitleaks config on a planted key):
 each failed as it should.
 
-Per-repository triage tables: [`findings/`](findings). Scripts: [`scripts/`](scripts). Raw counts: `results/counts.json`.
+Per-repository triage tables: [`findings/`](findings). Scripts: [`scripts/`](scripts). Scanner reports, trimmed to
+the fields the counts and the triage use (no secret values, matched text or commit authors): `results/raw/`.
+Counts derived from them: `results/counts.json`.
 
 ## Results
 
@@ -109,8 +119,9 @@ What moved, in plain terms:
 - **Containers.** The geo-assistant's web image went from 179 fixable vulnerabilities (44 HIGH) to 1 MEDIUM by moving
   off an nginx tag that had stopped being rebuilt. The two Python images lost every fixable HIGH and MEDIUM: pip,
   which they do not use at run time, is removed. Both images that ran as root now run as unprivileged users.
-- **Browser hardening.** All three APIs and the geo front end now send CSP, nosniff, anti-clickjacking,
-  Referrer-Policy and CORP headers; the medium-risk ZAP alerts on the geo page went from 2 to 0. fm's three remaining
+- **Browser hardening.** The fm and camera APIs now send CSP, nosniff, anti-clickjacking, Referrer-Policy and CORP
+  headers themselves; the geo API and front end get them from the nginx proxy, the only port the geo stack publishes
+  (the geo API run directly with uvicorn sends none); the medium-risk ZAP alerts on the geo page went from 2 to 0. fm's three remaining
   medium alerts are on FastAPI's own Swagger page (inline bootstrap script and style, CDN files without SRI).
 - **Code.** The camera API's Kafka consumer died on the first malformed message, freezing the API; it now skips bad
   messages (11 tests, 2 mutation cases). The Redpanda broker, which has no authentication, is no longer published on
@@ -133,7 +144,8 @@ What moved, in plain terms:
 | fm-knowledge-assistant | `7b2c941` non-root user, pinned base; `376532e` security headers + tests + mutants; `6f2d318` `.gitleaks.toml` for the one false positive; `94e25e2` CI: pinned actions, image user check, image scan, security job; `97a4543` pip removed instead of upgraded; `f46ecae` CSP for `/docs`, CORP, Permissions-Policy |
 | sg-traffic-camera-analytics | `8cf4e88` malformed state messages skipped + tests + mutants; `6bc2c2f` broker on 127.0.0.1 by default; `1a56b79` CI: pinned actions + security job; `bda2f5d` security headers + test + mutant |
 
-CI is green on the head of all three. Two intermediate pushes failed CI and were fixed by the next commit: the geo
+CI was green on the head of `main` of all three when last checked, on 2026-11-09 (geo `35afb40`, fm `427472b`,
+camera `bda2f5d`). Two intermediate pushes failed CI and were fixed by the next commit: the geo
 header check first used `HEAD`, which the API answers with 405 (`9c2b24b`), and fm's new image gate caught the HIGH
 CVEs that an upgraded pip vendors (`97a4543`). The second one is the gate doing its job on my own change.
 
@@ -146,6 +158,10 @@ root user in the container (B1), missing headers when served without the Caddy p
 (B3), `rustls` 0.23.43 in the Rust workbench (B4), Vue 2.7.16 (B5) and esbuild (B6, not exploitable here). The access
 token gate itself held: unauthenticated, ZAP reached only the "token required" page. ZAP ran there as a baseline
 scan without and with the token, not as an OpenAPI scan.
+
+Status on 2026-11-09: none of B1 to B8 is applied on civil-buddy-sme `main` (`304d7de`), and there is no tracking
+issue yet. Two pull requests were merged to `main` since the review (#16 on 2026-10-19, #19 on 2026-11-03), and
+draft PR #14 is still open.
 
 ## Residual risk
 
@@ -165,7 +181,37 @@ scan without and with the token, not as an OpenAPI scan.
 
 ## Reproduce
 
-`scripts/secscan.sh <repo> <before|after>` runs Semgrep, pip-audit, Trivy and gitleaks on a clone;
-`scripts/img.sh` scans a built image; `scripts/seczap.sh` runs ZAP; `scripts/counts.py` turns the outputs into
-`results/counts.json`; `scripts/cisec.sh` replays a repository's CI security gates; `scripts/gate_mut.sh` checks that
-the gates fail on known-bad input. They expect the scanners on `PATH` and Docker.
+Check the committed numbers (Python 3.11, standard library only, Windows or Linux):
+
+```
+python scripts/counts.py --base results/raw --check   # counts.json == what the trimmed reports give
+python scripts/verify_readme.py                       # README and findings/ numbers == counts.json
+python scripts/verify_readme.py --online              # also: every cited commit is on its repo's default branch
+python -m unittest discover -s tests -v
+```
+
+Re-run the scans (Linux or WSL with Docker; Semgrep, pip-audit, Trivy and gitleaks on `PATH`, the scripts also look in
+`~/.local/bin`). The vulnerability databases move, so a re-run gives today's counts, not the ones above.
+
+```
+export WORK=$HOME/sec                     # clones in $WORK/<repo>, reports in $WORK/_results/<repo>/<phase>/
+git clone https://github.com/LUOaini1213/<repo> $WORK/<repo>
+git -C $WORK/<repo> checkout <before or after SHA from results/scanned_commits.json>
+scripts/secscan.sh <repo> <before|after>                    # Semgrep, pip-audit, Trivy fs, gitleaks
+(cd $WORK/<repo>/<dir with package-lock.json> && npm audit --package-lock-only --json    > $WORK/_results/<repo>/<phase>/npm-audit_<dir>.json)   # geo: frontend, civil-buddy-sme: root
+docker compose build                                         # in the clone, then:
+scripts/img.sh <repo> <phase> <label> <image>               # labels: api, web (geo), api (fm), gateway (civil-buddy-sme)
+scripts/seczap.sh <repo> <phase> web baseline http://127.0.0.1:<port>/            # app running locally
+scripts/seczap.sh <repo> <phase> api api http://127.0.0.1:<port>/openapi.json   # civil-buddy-sme: unauth/auth baselines
+python scripts/counts.py --out /tmp/counts.json             # reads $WORK/_results; exits 2 if it finds nothing
+python scripts/trim_raw.py --dst /tmp/raw                   # the trimmed copy committed as results/raw/
+```
+
+`scripts/cisec.sh <repo>` replays a repository's CI security gates on `$WORK/<repo>`. `scripts/gate_mut.sh` checks
+that the gates fail on known-bad input; it expects a clone of the pre-fix geo commit (`3b59e13`) at
+`$WORK/_before_geo`. ZAP is pinned to `zaproxy:2.17.0` by digest, Trivy to 0.76.0 and gitleaks to 8.30.1 in the CI
+replays.
+
+## Licence
+
+MIT, see [LICENSE](LICENSE). Third-party material is not covered: see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

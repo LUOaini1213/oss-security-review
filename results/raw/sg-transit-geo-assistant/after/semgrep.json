@@ -1,0 +1,445 @@
+{
+ "results": [
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 43
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 43
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 46
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 46
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 51
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 51
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 55
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 55
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 74
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 74
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 78
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 78
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 90
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 90
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 93
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 93
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 97
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 97
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 109
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 109
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 119
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 119
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 122
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 122
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 129
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 129
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 132
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 132
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 136
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 136
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 137
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "backend/app/build.py",
+   "start": {
+    "line": 137
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 51
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 51
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 52
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 52
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 87
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 87
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 88
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 88
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 102
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 102
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 111
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/prepare_from_sg_bus.py",
+   "start": {
+    "line": 111
+   }
+  }
+ ],
+ "version": "1.181.0"
+}

@@ -45,3 +45,9 @@ pip-audit on all 13 requirement files reported nothing.
 ## Residual risk
 
 All items B1 to B7 are open until the owner applies them. The biggest practical one is B1 (root in the container).
+
+Status on 2026-11-09: none of B1 to B8 is applied on `main` (`304d7de`): the Dockerfile still starts from an
+unpinned `python:3.11-slim` with no `USER` or `HEALTHCHECK`, `ci.yml` still uses tag-pinned actions,
+`workbench/Cargo.lock` still has `rustls` 0.23.43, `package.json` still asks for `esbuild` ^0.24.2, and there is no
+`.gitleaks.toml`. There is no tracking issue. Pull requests #16 (2026-10-19) and #19 (2026-11-03) were merged to
+`main` in the meantime; draft PR #14 is still open.

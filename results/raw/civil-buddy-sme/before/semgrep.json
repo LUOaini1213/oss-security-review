@@ -1,0 +1,1015 @@
+{
+ "results": [
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 25
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 26
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 27
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 33
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 49
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 50
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 53
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 226
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 227
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 254
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 255
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 257
+   }
+  },
+  {
+   "check_id": "yaml.github-actions.security.gha-curl-pipe-shell.gha-curl-pipe-shell",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": ".github/workflows/ci.yml",
+   "start": {
+    "line": 269
+   }
+  },
+  {
+   "check_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "demo/context.py",
+   "start": {
+    "line": 119
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.non-literal-import.non-literal-import",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "demo/domain_service.py",
+   "start": {
+    "line": 39
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "demo/local_retrieval.py",
+   "start": {
+    "line": 170
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "demo/local_retrieval.py",
+   "start": {
+    "line": 170
+   }
+  },
+  {
+   "check_id": "javascript.audit.detect-replaceall-sanitization.detect-replaceall-sanitization",
+   "extra": {
+    "severity": "INFO"
+   },
+   "path": "demo/static/app.js",
+   "start": {
+    "line": 2027
+   }
+  },
+  {
+   "check_id": "javascript.audit.detect-replaceall-sanitization.detect-replaceall-sanitization",
+   "extra": {
+    "severity": "INFO"
+   },
+   "path": "demo/static/app.js",
+   "start": {
+    "line": 2027
+   }
+  },
+  {
+   "check_id": "javascript.audit.detect-replaceall-sanitization.detect-replaceall-sanitization",
+   "extra": {
+    "severity": "INFO"
+   },
+   "path": "demo/static/app.js",
+   "start": {
+    "line": 2027
+   }
+  },
+  {
+   "check_id": "javascript.audit.detect-replaceall-sanitization.detect-replaceall-sanitization",
+   "extra": {
+    "severity": "INFO"
+   },
+   "path": "demo/static/app.js",
+   "start": {
+    "line": 2027
+   }
+  },
+  {
+   "check_id": "typescript.react.security.react-insecure-request.react-insecure-request",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "demo/static/app.js",
+   "start": {
+    "line": 2687
+   }
+  },
+  {
+   "check_id": "javascript.audit.detect-replaceall-sanitization.detect-replaceall-sanitization",
+   "extra": {
+    "severity": "INFO"
+   },
+   "path": "demo/static/docpreview.js",
+   "start": {
+    "line": 23
+   }
+  },
+  {
+   "check_id": "javascript.audit.detect-replaceall-sanitization.detect-replaceall-sanitization",
+   "extra": {
+    "severity": "INFO"
+   },
+   "path": "demo/static/docpreview.js",
+   "start": {
+    "line": 23
+   }
+  },
+  {
+   "check_id": "javascript.audit.detect-replaceall-sanitization.detect-replaceall-sanitization",
+   "extra": {
+    "severity": "INFO"
+   },
+   "path": "demo/static/docpreview.js",
+   "start": {
+    "line": 23
+   }
+  },
+  {
+   "check_id": "javascript.audit.detect-replaceall-sanitization.detect-replaceall-sanitization",
+   "extra": {
+    "severity": "INFO"
+   },
+   "path": "demo/static/docpreview.js",
+   "start": {
+    "line": 23
+   }
+  },
+  {
+   "check_id": "html.security.plaintext-http-link.plaintext-http-link",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "frontend/index.html",
+   "start": {
+    "line": 473
+   }
+  },
+  {
+   "check_id": "html.security.plaintext-http-link.plaintext-http-link",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "frontend/index.html",
+   "start": {
+    "line": 801
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.non-literal-import.non-literal-import",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/cad3d/geometry.py",
+   "start": {
+    "line": 55
+   }
+  },
+  {
+   "check_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/kb_search.py",
+   "start": {
+    "line": 274
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/kb_search.py",
+   "start": {
+    "line": 395
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dangerous-subprocess-use-tainted-env-args.dangerous-subprocess-use-tainted-env-args",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/logistics/ocr.py",
+   "start": {
+    "line": 58
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dangerous-subprocess-use-tainted-env-args.dangerous-subprocess-use-tainted-env-args",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/logistics/packing.py",
+   "start": {
+    "line": 187
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.non-literal-import.non-literal-import",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/post_drafts/__init__.py",
+   "start": {
+    "line": 53
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/retrieval/service.py",
+   "start": {
+    "line": 171
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/retrieval/service.py",
+   "start": {
+    "line": 171
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/retrieval/service.py",
+   "start": {
+    "line": 216
+   }
+  },
+  {
+   "check_id": "python.lang.compatibility.python36.python36-compatibility-Popen1",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/runtime/launcher.py",
+   "start": {
+    "line": 175
+   }
+  },
+  {
+   "check_id": "python.lang.compatibility.python36.python36-compatibility-Popen2",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/runtime/launcher.py",
+   "start": {
+    "line": 175
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dangerous-subprocess-use-tainted-env-args.dangerous-subprocess-use-tainted-env-args",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/runtime/launcher.py",
+   "start": {
+    "line": 176
+   }
+  },
+  {
+   "check_id": "python.lang.compatibility.python36.python36-compatibility-Popen1",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/runtime/os_sandbox/__init__.py",
+   "start": {
+    "line": 120
+   }
+  },
+  {
+   "check_id": "python.lang.compatibility.python36.python36-compatibility-Popen2",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/runtime/os_sandbox/__init__.py",
+   "start": {
+    "line": 120
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.insecure-transport.urllib.insecure-request-object.insecure-request-object",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/runtime/research_demo.py",
+   "start": {
+    "line": 30
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.insecure-transport.urllib.insecure-request-object.insecure-request-object",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/runtime/research_demo.py",
+   "start": {
+    "line": 134
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.non-literal-import.non-literal-import",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/runtime/workspace.py",
+   "start": {
+    "line": 89
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.non-literal-import.non-literal-import",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/runtime/workspace.py",
+   "start": {
+    "line": 103
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.non-literal-import.non-literal-import",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/skills_registry.py",
+   "start": {
+    "line": 68
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/skjolber_client.py",
+   "start": {
+    "line": 56
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/skjolber_client.py",
+   "start": {
+    "line": 121
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 203
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 203
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 247
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 247
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 451
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 529
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 788
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 788
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 898
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 899
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.formatted-sql-query.formatted-sql-query",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 1215
+   }
+  },
+  {
+   "check_id": "python.sqlalchemy.security.sqlalchemy-execute-raw-query.sqlalchemy-execute-raw-query",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "packing_assistant/storage.py",
+   "start": {
+    "line": 1215
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "packing_assistant/tms_booking.py",
+   "start": {
+    "line": 209
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.insecure-transport.urllib.insecure-request-object.insecure-request-object",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/demo_nine_agents_trace.py",
+   "start": {
+    "line": 216
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/demo_nine_agents_trace.py",
+   "start": {
+    "line": 222
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.insecure-transport.urllib.insecure-request-object.insecure-request-object",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/demo_nine_agents_trace.py",
+   "start": {
+    "line": 234
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/demo_nine_agents_trace.py",
+   "start": {
+    "line": 240
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/fanout16x8_online_cargo.py",
+   "start": {
+    "line": 79
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/fetch_external_datasets.py",
+   "start": {
+    "line": 23
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/netopt128_online_iter.py",
+   "start": {
+    "line": 95
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/overnight_civil_loop.py",
+   "start": {
+    "line": 192
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/r13_golden_path_e2e.py",
+   "start": {
+    "line": 54
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dangerous-subprocess-use-tainted-env-args.dangerous-subprocess-use-tainted-env-args",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/run_t60_main.py",
+   "start": {
+    "line": 32
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/smoke_agent_product.py",
+   "start": {
+    "line": 251
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/smoke_agent_product.py",
+   "start": {
+    "line": 280
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/smoke_agent_product.py",
+   "start": {
+    "line": 287
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.insecure-transport.urllib.insecure-request-object.insecure-request-object",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/start_mixed_30t_demo.py",
+   "start": {
+    "line": 63
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/start_mixed_30t_demo.py",
+   "start": {
+    "line": 69
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dangerous-subprocess-use-tainted-env-args.dangerous-subprocess-use-tainted-env-args",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/start_unified_workbench.py",
+   "start": {
+    "line": 220
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/start_unified_workbench.py",
+   "start": {
+    "line": 231
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/start_unified_workbench.py",
+   "start": {
+    "line": 235
+   }
+  },
+  {
+   "check_id": "javascript.lang.security.audit.unknown-value-with-script-tag.unknown-value-with-script-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/test_cad_ui.cjs",
+   "start": {
+    "line": 50
+   }
+  },
+  {
+   "check_id": "javascript.lang.security.audit.unknown-value-with-script-tag.unknown-value-with-script-tag",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/test_chat_stream.cjs",
+   "start": {
+    "line": 1014
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.non-literal-import.non-literal-import",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/test_domain_service.py",
+   "start": {
+    "line": 92
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.non-literal-import.non-literal-import",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/test_domain_service.py",
+   "start": {
+    "line": 92
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/test_hitl_checkpoint.py",
+   "start": {
+    "line": 96
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/test_hitl_checkpoint.py",
+   "start": {
+    "line": 100
+   }
+  },
+  {
+   "check_id": "python.django.security.injection.command.subprocess-injection.subprocess-injection",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/test_host_worker.py",
+   "start": {
+    "line": 33
+   }
+  },
+  {
+   "check_id": "generic.secrets.security.detected-jwt-token.detected-jwt-token",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/test_it_drafts.py",
+   "start": {
+    "line": 162
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/test_offline_ui.py",
+   "start": {
+    "line": 59
+   }
+  },
+  {
+   "check_id": "generic.unicode.security.bidi.contains-bidirectional-characters",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/test_post_robustness.py",
+   "start": {
+    "line": 46
+   }
+  },
+  {
+   "check_id": "generic.unicode.security.bidi.contains-bidirectional-characters",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/test_post_robustness.py",
+   "start": {
+    "line": 46
+   }
+  },
+  {
+   "check_id": "python.lang.compatibility.python36.python36-compatibility-Popen2",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "scripts/test_runtime_cancel_isolation.py",
+   "start": {
+    "line": 80
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/ui_smoke_unstick.py",
+   "start": {
+    "line": 26
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/ui_smoke_unstick.py",
+   "start": {
+    "line": 34
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/unified_acceptance.py",
+   "start": {
+    "line": 225
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/vendor_cad_viewer.py",
+   "start": {
+    "line": 25
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dynamic-urllib-use-detected.dynamic-urllib-use-detected",
+   "extra": {
+    "severity": "WARNING"
+   },
+   "path": "scripts/verify_research_tools_live.py",
+   "start": {
+    "line": 44
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dangerous-subprocess-use-tainted-env-args.dangerous-subprocess-use-tainted-env-args",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "skills/civil-buddy/scripts/run_v1_acceptance.py",
+   "start": {
+    "line": 121
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dangerous-subprocess-use-tainted-env-args.dangerous-subprocess-use-tainted-env-args",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "skills/civil-buddy/scripts/run_v1_acceptance.py",
+   "start": {
+    "line": 122
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dangerous-subprocess-use-tainted-env-args.dangerous-subprocess-use-tainted-env-args",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "skills/civil-buddy/scripts/run_v1_acceptance.py",
+   "start": {
+    "line": 124
+   }
+  },
+  {
+   "check_id": "python.lang.security.audit.dangerous-subprocess-use-tainted-env-args.dangerous-subprocess-use-tainted-env-args",
+   "extra": {
+    "severity": "ERROR"
+   },
+   "path": "skills/civil-buddy/scripts/run_v1_acceptance.py",
+   "start": {
+    "line": 138
+   }
+  }
+ ],
+ "version": "1.181.0"
+}
