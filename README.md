@@ -211,3 +211,7 @@ python scripts/trim_raw.py --dst /tmp/raw                   # the trimmed copy c
 that the gates fail on known-bad input; it expects a clone of the pre-fix geo commit (`3b59e13`) at
 `$WORK/_before_geo`. ZAP is pinned to `zaproxy:2.17.0` by digest, Trivy to 0.76.0 and gitleaks to 8.30.1 in the CI
 replays.
+
+## Licence
+
+MIT, see [LICENSE](LICENSE). Third-party material is not covered: see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
